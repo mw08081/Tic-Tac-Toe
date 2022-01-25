@@ -68,7 +68,7 @@ public :
 		board = new char[3][3]{ {' ', ' ', ' '}, {' ', ' ', ' '}, {' ', ' ', ' '} }; // { {'O', 'O', 'O'}, { 'O', 'O', 'O' }, { 'O', 'O', 'O' } };
 		isP1 = true;
 		cnt = 0;
-		players = new Person[2]();
+		players = new Person[2];
 
 		for (int i = 0; i < 2; i++)
 		{
@@ -107,7 +107,7 @@ public :
 		}
 	}
 
-public :
+private :
 
 	void PrintGameInfo()
 	{
